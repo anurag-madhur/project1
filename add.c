@@ -1,19 +1,19 @@
 #include<stdio.h>
 
-int add(int x,int y)
+int add(int x,int y,int u)
 {
 	int z;
-	z=x+y;
+	z=x+y+u;
 	return z;	
 
 }
 
 void main()
 {
-	int a,b,c;
-	scanf("%d%d",&a,&b);
+	int a,b,c,d;
+	scanf("%d%d",&a,&b,&c);
 	
-	c=add(a,b);
+	c=add(a,b,c);
 	printf("Sum of the two no.s is %d",c);
 
 }
