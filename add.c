@@ -3,7 +3,7 @@
 int add(int x,int y)
 {
 	int z;
-	z = 2*x+3*y;
+	z = x+y;
 	return z;	
 
 }
